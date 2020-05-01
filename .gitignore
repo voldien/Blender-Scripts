@@ -36,7 +36,13 @@ target/
 # celery beat schedule file
 celerybeat-schedule
 
-# dotenv
+# Environments
 .env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
 
 *~
