@@ -1,7 +1,7 @@
 # Properly detect languages on Github
 *.h linguist-language=cpp
 *.inc linguist-language=cpp
-*.py linguist-language=py
+*.py text diff=python
 thirdparty/* linguist-vendored
 
 # Normalize EOL for all files that Git considers text files
@@ -13,4 +13,3 @@ thirdparty/* linguist-vendored
 *.ico binary
 *.png binary
 *.ttf binary
-
