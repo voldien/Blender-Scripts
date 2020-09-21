@@ -6,6 +6,7 @@ end_of_line = lf
 indent_style = tab
 insert_final_newline = true
 
-[{*.{py,cs},SConstruct,SCsub}]
-indent_style = space
+# tab indentation
+[*.py]
+indent_style = tab
 indent_size = 4
